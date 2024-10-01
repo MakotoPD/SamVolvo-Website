@@ -38,12 +38,6 @@ export default defineNuxtConfig({
 					type: 'image/png',
 					href: '/favicon.png'
 				},
-				{
-					rel: 'stylesheet',
-					href: 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css',
-					media: 'print', 
-					onload: 'this.media="all"'
-				},
 			],
 			script: [
 
@@ -72,6 +66,7 @@ export default defineNuxtConfig({
       "Space Grotesk": true
     }
   },
+
 
   css: [
     '@/assets/css/global.css',
