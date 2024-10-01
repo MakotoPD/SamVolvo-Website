@@ -59,11 +59,10 @@ export default defineNuxtConfig({
   },
 
   googleFonts: {
-    display: 'swap',
+    display: 'auto',
     families: {
-      Roboto: true,
-      Poppins: true,
-      "Space Grotesk": true
+      Poppins: [ 200, 300, 400, 500, 600, 700, 800],
+      "Space Grotesk": [ 200, 300, 400, 500, 600, 700, 800],
     }
   },
 
