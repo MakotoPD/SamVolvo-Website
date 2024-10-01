@@ -5,6 +5,10 @@ export default <Partial<Config>>{
 		colors: {
 			'primary': '#00A8E8',
 			'secondary': '#007EA8',
+			'darkborderalptha': 'rgba(110, 110, 126, 0.35)',
+			'darkalptha': 'rgba(37, 37, 37, 0.25)',
+			'light': '#D9E5EC',
+			'text': '#6E787E',
 			inherit: "inherit",
 			current: "currentColor",
 			transparent: "transparent",

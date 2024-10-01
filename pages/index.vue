@@ -1,9 +1,21 @@
 <template>
-	<div class="w-screen h-screen flex flex-col justify-center items-center">
-		<h1 class="text-white"><span class="text-primary ">Code</span> is My Creative Outlet</h1>
-		<h2 class="text-white">Code is My Creative Outlet</h2>
-		<h3 class="text-white">Code is My Creative Outlet</h3>
-		<h4 class="text-white">Code is My Creative Outlet</h4>
-		<p class="text-white">Code is My Creative Outlet</p>
+	<Navbar/>
+	<div class="w-screen">
+		
+		<div class="container mx-auto grid grid-cols-2">
+			<div class="flex flex-col gap-4 justify-center items-start">
+				<div class="flex flex-col gap-2">
+					<p class="text-text">Sam Volont</p>
+					<h1 class="text-white font-medium tracking-wider"><span class="text-primary font-['Space_Grotesk']">Code</span> is My <br/> Creative Outlet</h1>
+				</div>
+
+				<p class="text-text max-w-2xl">I’m a 17-year-old Belgian developer who began coding in 2022. What started as a hobby has grown into a passion for creating software and solving problems. Since then, I’ve been developing projects and learning new technologies, turning coding into my creative outlet and ambition.</p>
+				<button class="bg-secondary py-2 px-6 rounded-full text-light">Contact me</button>
+			</div>
+			<div class="flex justify-center items-start">
+				<NuxtImg src="/img/boy.png" class="h-[40rem] object-contain" />
+			</div>
+		</div>
+		
 	</div>
 </template>
