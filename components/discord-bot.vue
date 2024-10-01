@@ -41,7 +41,7 @@
 			<NuxtImg src="/img/bg/poziom.png" class="-z-[10] absolute left-1/2 top-1/2 h-[40rem] -translate-y-1/2 -translate-x-1/2" />
 
 			<button class="shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Terms Of Service</button>
-			<button class="py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><p class="mainButtonText">Invite BobTheMod</p></button>
+			<button class="cursor-pointer py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></button>
 			<button class="shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Privacy Policy</button>
 
 			

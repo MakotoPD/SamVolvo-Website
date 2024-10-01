@@ -22,15 +22,15 @@ export default defineNuxtConfig({
 				},
 				{
 					name: 'description',
-					content: 'Makoto - Web developer. Experienced web developer offers modern, responsive designs, SEO optimization and technical support. Specializing in JavaScript, VueJS, React and more. Create exceptional websites with us!'
+					content: 'Welcome to the site of a young Minecraft plugin developer! I offer unique solutions in Java that will enhance your gaming experience. From simple modifications to advanced plugins, each project is crafted with passion and attention to detail. Discover how easy it is to customize your server gameplay, boost its functionality, and attract more players. Join me for collaboration, tutorials, and sharing knowledge about programming in Java and creating innovative plugins.'
 				},
 				{
 					name: 'keywords',
-					content: 'programista stron internetowych, tworzenie stron www, nowoczesne technologie webowe, Nuxt.js, Vue.js, React, optymalizacja SEO, responsywne strony, projektowanie stron internetowych, wsparcie techniczne, HTML5, CSS3, JavaScript, Node.js, WordPress, portfolio web development, usługi webowe, aktualizacja stron, utrzymanie stron internetowych, rozwój aplikacji webowych, Makoto, MakotoPD, web developer, website development, modern web technologies, Nuxt.js, Vue.js, React, SEO optimization, responsive websites, web design, technical support, HTML5, CSS3, JavaScript, Node.js, WordPress, web development portfolio, web services, website updates, website maintenance, web application development'
+					content: 'Minecraft plugins, Java developer, plugin creation, Minecraft modifications, Minecraft server development, Java tutorials, young programmer, Minecraft projects'
 				},
 				{
 					name: 'og:image',
-					content: '/og.png'
+					content: '/og.webp'
 				}
 			],
 			link: [{
