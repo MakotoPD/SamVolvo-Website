@@ -1,11 +1,11 @@
 <template>
 	<div id="BobTheMod" class="container mx-auto py-16 relative">
-		<NuxtImg src="/img/bg/pion.png" class="-z-0 absolute left-0 top-1/3 w-[40rem] -translate-y-1/2 -translate-x-1/2" />
+		<NuxtImg title="bg" alt="bg" src="/img/bg/pion.png" class="-z-0 absolute left-0 top-1/3 w-[40rem] -translate-y-1/2 -translate-x-1/2" />
 
 
 		<div class="grid grid-cols-2">
 			<div>
-				<NuxtImg src="/img/discord.png" class="w-3/4 drop-shadow-2xl shadow-secondary" />
+				<NuxtImg title="discord logo" alt="discord logo" src="/img/discord.png" class="w-3/4 drop-shadow-2xl shadow-secondary" />
 			</div>
 			<div>
 				<p class="text-text">Discord Server Moderation Bot</p>
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="relative flex justify-center items-cetner gap-12 py-12 text-light">
-			<NuxtImg src="/img/bg/poziom.png" class="-z-[10] absolute left-1/2 top-1/2 h-[40rem] -translate-y-1/2 -translate-x-1/2" />
+			<NuxtImg title="bg" alt="bg" src="/img/bg/poziom.png" class="-z-[10] absolute left-1/2 top-1/2 h-[40rem] -translate-y-1/2 -translate-x-1/2" />
 
 			<button class="shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Terms Of Service</button>
 			<button class="cursor-pointer py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></button>

@@ -1,6 +1,6 @@
 <template>
 	<div class="w-screen relative">
-		<NuxtImg src="/img/bg/pion.png" class="-z-0 absolute right-0 bottom-0 w-[40rem] translate-y-1/2 translate-x-1/2" />
+		<NuxtImg title="bg" alt="bg" src="/img/bg/pion.png" class="-z-0 absolute right-0 bottom-0 w-[40rem] translate-y-1/2 translate-x-1/2" />
 
 		<div class="container mx-auto grid grid-cols-2">
 			<div class="flex flex-col gap-4 justify-center items-start">
@@ -13,7 +13,7 @@
 				<button data-aos="fade-right" data-aos-delay="500"  class="bg-secondary py-2 px-6 rounded-full text-light hover:bg-secondary/60 duration-150">Contact me</button>
 			</div>
 			<div class="flex justify-end items-start">
-				<NuxtImg data-aos="fade-left" data-aos-delay="750" src="/img/boy.png" :placeholder="[15, 25, 50, 75]"  class="h-[40rem] object-contain" />
+				<NuxtImg title="bg" alt="boy image" data-aos="fade-left" data-aos-delay="750" src="/img/boy.png" :placeholder="[15, 25, 50, 75]"  class="h-[40rem] object-contain" />
 			</div>
 		</div>
 		
