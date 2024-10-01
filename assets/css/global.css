@@ -1,0 +1,59 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+*{
+  font-family: "Poppins", -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1{
+	font-family: "Space Grotesk", -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	@apply text-6xl
+}
+
+h2{
+	@apply text-3xl
+}
+
+h3{
+	@apply text-2xl
+}
+
+h4{
+	@apply text-xl
+}
+
+
+body{
+	background-color: #111827;
+  	position: relative;
+}
+
+
+html, body{
+	overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(39, 52, 82); 
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(82, 102, 146); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(134, 154, 199); 
+}
