@@ -19,16 +19,16 @@
 					</p>
 					<p>Main bot features:</p>
 					<ul class="list-disc list-inside">
-						<li><span class="font-semibold">Automatic content filtering - </span>
+						<li><span class="font-semibold text-light">Automatic content filtering - </span>
 							real-time elimination of vulgarity, spam and inappropriate content.
 						</li>
-						<li><span class="font-semibold">Surveillance and reporting  - </span>
+						<li><span class="font-semibold text-light">Surveillance and reporting  - </span>
 							detailed monitoring of user activity with the ability to generate reports.						</li>
-						<li><span class="font-semibold">Warning system - </span>
+						<li><span class="font-semibold text-light">Warning system - </span>
 							automatic warnings and temporary bans for users breaking the rules.						</li>
-						<li><span class="font-semibold">Role management - </span>
+						<li><span class="font-semibold text-light">Role management - </span>
 							facilitated assignment and management of roles on the server.						</li>
-						<li><span class="font-semibold">Logging of actions - </span>
+						<li><span class="font-semibold text-light">Logging of actions - </span>
 							all moderation actions are recorded, allowing full control over the history of actions.						</li>
 					</ul>
 					<p>
@@ -40,9 +40,9 @@
 		<div class="relative flex justify-center items-cetner gap-12 py-12 text-light">
 			<NuxtImg  alt="bg" src="/img/bg/poziom.png" class="-z-[10] absolute left-1/2 top-1/2 h-[40rem] -translate-y-1/2 -translate-x-1/2" />
 
-			<button class="shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Terms Of Service</button>
+			<NuxtLink to="/BobTheMod/tos" class="cursor-pointer shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Terms Of Service</NuxtLink>
 			<button class="cursor-pointer py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></button>
-			<button class="shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Privacy Policy</button>
+			<NuxtLink to="/BobTheMod/privacypolicy" class="cursor-pointer shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Privacy Policy</NuxtLink>
 
 			
 		</div>

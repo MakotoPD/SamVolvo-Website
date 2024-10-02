@@ -2,9 +2,11 @@
 	<div class="z-50 w-screen flex justify-between container mx-auto py-6 relative">
 		<NuxtImg alt="bg"  src="/img/bg/poziom.png" class="-z-0 w-[100rem] h-[60rem] absolute left-0 top-0 -translate-x-1/3 -translate-y-1/2" />
 
-		<NuxtImg alt="SamVolvo" src="/logo/light.svg" class="z-10 h-4" data-aos="fade-right" />
+		<NuxtLink to="/" class="cursor-pointer">
+			<NuxtImg alt="SamVolvo" src="/logo/light.svg" class="z-10 h-4 cursor-pointer" data-aos="fade-right" />
+		</NuxtLink>
 		<div data-aos="fade-left" class="text-light px-2 py-1 border border-darkborderalptha rounded-full bg-darkalptha flex items-center gap-6">
-			<a href="#BobTheMod" class="cursor-pointer font-light duration-200 hover:bg-darkborderalptha px-2 rounded-full">
+			<a href="/#BobTheMod" class="cursor-pointer font-light duration-200 hover:bg-darkborderalptha px-2 rounded-full">
 				BobTheMod
 			</a>
 			<button 
