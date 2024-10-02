@@ -2,7 +2,7 @@
 	<div class="w-screen relative">
 		<NuxtImg  alt="bg" src="/img/bg/pion.png" class="-z-0 absolute right-0 bottom-0 w-[40rem] translate-y-1/2 translate-x-1/2" />
 
-		<div class="container mx-auto grid grid-cols-2">
+		<div class="z-50 container mx-auto grid grid-cols-2">
 			<div class="flex flex-col gap-4 justify-center items-start">
 				<div data-aos="fade-right" data-aos-delay="400"  class="flex flex-col gap-2">
 					<p class="text-text">Sam Volont</p>
