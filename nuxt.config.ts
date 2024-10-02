@@ -80,7 +80,15 @@ export default defineNuxtConfig({
 				},
 			],
 			script: [
-
+				{
+					src: 'https://cloud.umami.is/script.js', defer: true, "data-website-id": '7a13869d-929f-4f48-b2a1-3a776f6e9b38'
+				},
+				{
+					src: 'https://www.googletagmanager.com/gtag/js?id=G-307K3PNGZ5', async: true,
+				},
+				{
+					children: "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-307K3PNGZ5');"
+				}
 			],
 		},
 
