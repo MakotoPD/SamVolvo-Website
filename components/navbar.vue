@@ -14,7 +14,7 @@
 				Social Media
 				<NuxtImg title="\/" alt="\/" src="/icons/arrow.svg" class="h-6 w-6" />
 
-				<div id="smMenu" class=" absolute right-0 top-6 py-4 px-2 flex flex-col gap-2 bg-darkborder/50 rounded-xl border border-darkborder">
+				<div id="smMenu" class="hidden absolute right-0 top-6 py-4 px-2 flex flex-col gap-2 bg-darkborder/50 rounded-xl border border-darkborder">
 					<a href="https://discord.gg/HJP69Sx2yU" target="_blank"  class="flex gap-1 cursor-pointer hover:bg-darkborder/40 duration-75 rounded-full px-2 py-0.5">
 						<NuxtImg class="h-6 cursor-pointer" src="/icons/discord.svg" title="dc" alt="discord" loading="lazy" />
 						<p class="cursor-pointer">Discord</p>

@@ -22,7 +22,7 @@ export default defineNuxtConfig({
 				},
 				{
 					name: 'description',
-					content: 'Welcome to the site of a young Minecraft plugin developer! I offer unique solutions in Java that will enhance your gaming experience. From simple modifications to advanced plugins, each project is crafted with passion and attention to detail. Discover how easy it is to customize your server gameplay, boost its functionality, and attract more players. Join me for collaboration, tutorials, and sharing knowledge about programming in Java and creating innovative plugins.'
+					content: 'Welcome to the site of a young Minecraft plugin developer! I offer unique solutions in Java that will enhance your gaming experience. From simple modifications to advanced plugins, each project is crafted with passion and attention to detail.'
 				},
 				{
 					name: 'keywords',
@@ -46,7 +46,7 @@ export default defineNuxtConfig({
 				},
 				{
 					property: 'og:description',
-					content: 'Welcome to the site of a young Minecraft plugin developer! I offer unique solutions in Java that will enhance your gaming experience. From simple modifications to advanced plugins, each project is crafted with passion and attention to detail. Discover how easy it is to customize your server gameplay, boost its functionality, and attract more players. Join me for collaboration, tutorials, and sharing knowledge about programming in Java and creating innovative plugins.'
+					content: 'Welcome to the site of a young Minecraft plugin developer! I offer unique solutions in Java that will enhance your gaming experience. From simple modifications to advanced plugins, each project is crafted with passion and attention to detail.'
 				},
 				{
 					name: 'twitter:card',
@@ -66,7 +66,7 @@ export default defineNuxtConfig({
 				},
 				{
 					name: 'twitter:description',
-					content: 'Welcome to the site of a young Minecraft plugin developer! I offer unique solutions in Java that will enhance your gaming experience. From simple modifications to advanced plugins, each project is crafted with passion and attention to detail. Discover how easy it is to customize your server gameplay, boost its functionality, and attract more players. Join me for collaboration, tutorials, and sharing knowledge about programming in Java and creating innovative plugins.'
+					content: 'Welcome to the site of a young Minecraft plugin developer! I offer unique solutions in Java that will enhance your gaming experience. From simple modifications to advanced plugins, each project is crafted with passion and attention to detail.'
 				},
 				{
 					name: 'twitter:image',
