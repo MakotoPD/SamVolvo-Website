@@ -6,7 +6,7 @@
 			<div class="z-50 flex flex-col gap-4 justify-center items-start">
 				<div data-aos="fade-right" data-aos-delay="400"  class="flex flex-col gap-2">
 					<p class="text-text text-sm sm:text-base">Sam Volont</p>
-					<h1 class="text-white font-medium tracking-wider text-4xl sm:text-6xl"><span class="text-primary font-['Space_Grotesk'] font-bold">Code</span> is My <br/> Creative Outlet</h1>
+					<h1 class="text-white font-medium tracking-wider text-4xl sm:text-6xl 2xl:text-7xl"><span class="text-primary font-['Space_Grotesk'] font-bold">Code</span> is My <br/> Creative Outlet</h1>
 				</div>
 
 				<p data-aos="fade-right" data-aos-delay="500"  class="text-text max-w-[70vw] sm:max-w-2xl text-sm sm:text-base">I’m a {{datediff}}-year-old Belgian developer who began coding in 2022. What started as a hobby has grown into a passion for creating software and solving problems. Since then, I’ve been developing projects and learning new technologies, turning coding into my creative outlet and ambition.</p>
