@@ -55,9 +55,11 @@
 	</div>
 
 	<div id="smMenuMobile" class="z-[500] hidden absolute right-4 top-[4.5rem] px-6 py-4 backdrop-blur-sm bg-darkborderalptha rounded-lg border border-darkborder text-light">
+			<p class="relative -left-2 text-xs text-light/60 mb-1">Projects</p>
 			<NuxtLink @click="closeSmMenuMobile" to="/#BobTheMod" class="cursor-pointer">
 				BobTheMod
 			</NuxtLink>
+
 			<div class="border-t border-darkborder mt-2 pt-2">
 				<p class="relative -left-2 text-xs text-light/60 mb-1">Social Media</p>
 				
