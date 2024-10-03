@@ -1,10 +1,10 @@
 <template>
-	<div id="BobTheMod" class="container mx-auto py-16 relative">
+	<div id="BobTheMod" class="container mx-auto pb-8 sm:py-16 px-4 sm:px-0 relative">
 		<NuxtImg alt="bg" src="/img/bg/pion.png" class="-z-0 absolute left-0 top-1/3 w-[40rem] -translate-y-1/2 -translate-x-1/2" />
 
 
-		<div class="grid grid-cols-2">
-			<div>
+		<div class="grid grid-cols-1 lg:grid-cols-2">
+			<div class="lg:block hidden">
 				<NuxtImg alt="discord logo" src="/img/discord.png" class="w-3/4 drop-shadow-2xl shadow-secondary" />
 			</div>
 			<div>
@@ -36,13 +36,16 @@
 				</div>
 
 			</div>
+			<div class="lg:hidden flex justify-center">
+				<NuxtImg alt="discord logo" src="/img/discord.png" class="w-3/4 drop-shadow-2xl shadow-secondary" />
+			</div>
 		</div>
-		<div class="relative flex justify-center items-cetner gap-12 py-12 text-light">
+		<div class="relative flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-12 py-12 text-light">
 			<NuxtImg  alt="bg" src="/img/bg/poziom.png" class="-z-[10] absolute left-1/2 top-1/2 h-[40rem] -translate-y-1/2 -translate-x-1/2" />
 
-			<NuxtLink to="/BobTheMod/tos" class="cursor-pointer shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Terms Of Service</NuxtLink>
-			<button class="cursor-pointer py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></button>
-			<NuxtLink to="/BobTheMod/privacypolicy" class="cursor-pointer shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Privacy Policy</NuxtLink>
+			<NuxtLink to="/BobTheMod/tos" class="cursor-pointer w-fit shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Terms Of Service</NuxtLink>
+			<button class="cursor-pointer w-fit py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></button>
+			<NuxtLink to="/BobTheMod/privacypolicy" class="cursor-pointer w-fit shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Privacy Policy</NuxtLink>
 
 			
 		</div>

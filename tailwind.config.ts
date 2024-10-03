@@ -282,7 +282,7 @@ export default <Partial<Config>>{
 			},
 		}
 	},
-	plugins: [],
+	plugins: [require('tailwind-hamburgers')],
 	content: [
 		'components/**/*.{vue,js,ts}',
 		'layouts/**/*.vue',
