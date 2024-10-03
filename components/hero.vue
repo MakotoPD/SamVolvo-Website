@@ -1,5 +1,5 @@
 <template>
-	<div class="w-screen relative">
+	<div class="w-screen relative lg:mt-24">
 		<NuxtImg  alt="bg" src="/img/bg/pion.png" class="-z-0 absolute right-0 bottom-0 w-[40rem] translate-y-1/2 translate-x-1/2" />
 
 		<div class="container mx-auto grid sm:grid-cols-2 px-4 sm:px-0">
