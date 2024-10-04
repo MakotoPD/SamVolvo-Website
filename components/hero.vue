@@ -10,7 +10,7 @@
 				</div>
 
 				<p data-aos="fade-right" data-aos-delay="500"  class="text-text max-w-[70vw] sm:max-w-2xl text-sm sm:text-base">I’m a {{datediff}}-year-old Belgian developer who began coding in 2022. What started as a hobby has grown into a passion for creating software and solving problems. Since then, I’ve been developing projects and learning new technologies, turning coding into my creative outlet and ambition.</p>
-				<button data-aos="fade-right" data-aos-delay="500"  class="bg-secondary py-2 px-6 rounded-full text-light hover:bg-gradient-to-tr from-secondary to-primary example-4 duration-150">Contact me</button>
+				<button @click="emit('opencontactform')" data-aos="fade-right" data-aos-delay="500"  class="bg-secondary py-2 px-6 rounded-full text-light hover:bg-gradient-to-tr from-secondary to-primary example-4 duration-150">Contact me</button>
 			</div>
 			<div class="flex justify-end items-start">
 				<NuxtImg 
@@ -32,6 +32,9 @@
 	let datenow = new Date();
 	let dateborn = new Date(2006,1,1);
 	let datediff = datenow.getFullYear() - dateborn.getFullYear()
+
+
+  const emit = defineEmits(['opencontactform'])
 </script>
 
 <style>
