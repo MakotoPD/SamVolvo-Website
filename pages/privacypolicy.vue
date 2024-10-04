@@ -1,7 +1,7 @@
 <template>
 	<Navbar />
 	<div class="py-24 flex justify-center">
-		<h1 class="text-light font-semibold">Terms of Service</h1>
+		<h1 class="text-light font-semibold">Privacy policy</h1>
 	</div>
 	<div class="mb-24 container mx-auto text-light">
 		<h2>Data Administrator</h2>
