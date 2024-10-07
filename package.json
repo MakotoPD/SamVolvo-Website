@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/scripts": "^0.9.4",
+    "@nuxtjs/turnstile": "^0.9.10",
     "aos": "^2.3.4",
     "nuxt": "^3.13.0",
     "nuxt-aos": "^1.2.5",
