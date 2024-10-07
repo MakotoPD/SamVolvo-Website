@@ -48,7 +48,7 @@
 			<NuxtImg  alt="bg" src="/img/bg/poziom.png" class="-z-[10] absolute left-1/2 top-1/2 h-[40rem] -translate-y-1/2 -translate-x-1/2" />
 
 			<NuxtLink to="/BobTheMod/tos" class="cursor-pointer w-fit shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Terms Of Service</NuxtLink>
-			<NuxtLink to="https://discord.com/oauth2/authorize?client_id=1164610379884802128d" target="_blank"  class="cursor-pointer w-fit py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></NuxtLink>
+			<NuxtLink to="https://discord.com/oauth2/authorize?client_id=1164610379884802128&permissions=1099524213846&integration_type=0&scope=bot" target="_blank"  class="cursor-pointer w-fit py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></NuxtLink>
 			<NuxtLink to="/BobTheMod/privacypolicy" class="cursor-pointer w-fit shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Privacy Policy</NuxtLink>
 		</div>
 
