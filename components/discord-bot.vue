@@ -11,7 +11,8 @@
 				<p class="text-text">Discord Server Moderation Bot</p>
 				<h2 class="text-light font-semibold mb-4">BobTheMod</h2>
 				<div class="text-light/80">
-					<p>My Discord moderation bot is a reliable tool designed to 
+					<p>
+						My Discord moderation bot is a reliable tool designed to 
 						manage the community and maintain order on the server. 
 						With advanced features such as automatic moderation, 
 						abuse detection and the ability to monitor user activity, 
@@ -23,16 +24,19 @@
 							real-time elimination of vulgarity, spam and inappropriate content.
 						</li>
 						<li><span class="font-semibold text-light">Surveillance and reporting  - </span>
-							detailed monitoring of user activity with the ability to generate reports.						</li>
+							detailed monitoring of user activity with the ability to generate reports.
+						</li>
 						<li><span class="font-semibold text-light">Warning system - </span>
-							automatic warnings and temporary bans for users breaking the rules.						</li>
+							automatic warnings and temporary bans for users breaking the rules.
+						</li>
 						<li><span class="font-semibold text-light">Role management - </span>
-							facilitated assignment and management of roles on the server.						</li>
+							facilitated assignment and management of roles on the server.
+						</li>
 						<li><span class="font-semibold text-light">Logging of actions - </span>
-							all moderation actions are recorded, allowing full control over the history of actions.						</li>
+							all moderation actions are recorded, allowing full control over the history of actions.
+						</li>
 					</ul>
-					<p>
-						With my bot, server moderation becomes simpler, faster and more efficient, allowing you to focus on building an engaged community.</p>
+					<p>With my bot, server moderation becomes simpler, faster and more efficient, allowing you to focus on building an engaged community.</p>
 				</div>
 
 			</div>
@@ -44,10 +48,8 @@
 			<NuxtImg  alt="bg" src="/img/bg/poziom.png" class="-z-[10] absolute left-1/2 top-1/2 h-[40rem] -translate-y-1/2 -translate-x-1/2" />
 
 			<NuxtLink to="/BobTheMod/tos" class="cursor-pointer w-fit shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Terms Of Service</NuxtLink>
-			<button class="cursor-pointer w-fit py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></button>
+			<NuxtLink to="https://discord.com/oauth2/authorize?client_id=1164610379884802128d" target="_blank"  class="cursor-pointer w-fit py-2 px-6 mainButton font-semibold hover:scale-110 duration-100"><span class="cursor-pointer mainButtonText">Invite BobTheMod</span></NuxtLink>
 			<NuxtLink to="/BobTheMod/privacypolicy" class="cursor-pointer w-fit shadow-xl py-2 px-6 rounded-lg bg-darkalptha border border-darkborderalptha hover:scale-110 duration-100">Privacy Policy</NuxtLink>
-
-			
 		</div>
 
 	</div>
