@@ -35,7 +35,7 @@
 						<label for="terms" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="/privacypolicy" class="text-blue-600 hover:underline dark:text-blue-500">privacy policy</a></label>
 					</div>
 
-					<NuxtTurnstile v-if="pageReady" v-model="token" :options="{theme: 'dark'}" />
+					<NuxtTurnstile v-if="pageReady" v-model="token" :options="{theme: 'dark', language: 'en'}" />
 
 
 					<div>
